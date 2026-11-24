@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "X-Artikel als PDF",
+  "version": "1.0.0",
+  "description": "Speichert den geöffneten X-Artikel mit einem Klick als gut lesbare PDF-Datei für das iPad.",
+  "permissions": ["activeTab", "scripting", "storage", "debugger", "downloads"],
+  "background": { "service_worker": "service-worker.js" },
+  "action": { "default_title": "X-Artikel als PDF speichern" },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Alt+Shift+P" },
+      "description": "Artikel als PDF speichern"
+    }
+  }
+}

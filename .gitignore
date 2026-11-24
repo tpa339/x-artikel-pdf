@@ -1,0 +1,4 @@
+test/node_modules/
+test/last-test-output.pdf
+.claude/
+.DS_Store

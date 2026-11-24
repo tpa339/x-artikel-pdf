@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><title>Test auf X: „Test-Artikel“ / X</title></head>
+<body>
+<!-- Nachbau der DOM-Struktur eines X-Artikels (Stand 2026-11-24, aus zwei echten Artikeln abgeleitet). -->
+<main><div data-testid="primaryColumn">
+<article data-testid="twitterArticleReadView">
+  <div><div><a href="/testuser/article/123/media/1"><div data-testid="tweetPhoto"><img alt="Bild" src="/img/cover.png"></div></a></div></div>
+  <div>
+    <div><div data-testid="twitter-article-title"><span>Ein Test-Artikel über Drohnen</span></div></div>
+    <div>
+      <div data-testid="UserAvatar-Container-testuser"><img src="/img/avatar.png" alt=""></div>
+      <a href="/testuser"><span>Test Autor</span></a><a href="/testuser"><span>@testuser</span></a>
+      <time datetime="2026-02-08T14:30:47.000Z">8. Feb.</time>
+    </div>
+    <div><button data-testid="reply" type="button"><span>2</span></button><button data-testid="like" type="button"><span>306</span></button></div>
+    <div data-testid="twitterArticleRichTextView"><div><div class="DraftEditor-root"><div class="DraftEditor-editorContainer">
+    <div class="public-DraftEditor-content" data-testid="longformRichTextComponent"><div data-contents="true">
+      <div><h2 class="longform-header-two" data-block="true"><div class="public-DraftStyleDefault-block"><span><span data-text="true">1. Erste Überschrift</span></span></div></h2></div>
+      <section data-block="true"><div><div><a href="/testuser/article/123/media/2"><div data-testid="tweetPhoto"><img alt="Bild" src="https://pbs.twimg.com/media/HAgojBoXQAA390X?format=jpg&amp;name=medium"></div></a></div></div></section>
+      <div class="longform-unstyled" data-block="true"><div class="public-DraftStyleDefault-block"><span><span data-text="true">Normaler Absatz mit </span></span><span style="font-weight: bold;"><span data-text="true">fettem Text</span></span><span><span data-text="true"> und einem </span></span><a href="https://arxiv.org/abs/2601.22401"><span><span data-text="true">Paper-Link</span></span></a><span><span data-text="true">. Emoji: </span></span><img alt="🥇" src="https://abs-0.twimg.com/emoji/v2/svg/1f947.svg"></div></div>
+      <ul class="public-DraftStyleDefault-ul">
+        <li class="longform-unordered-list-item public-DraftStyleDefault-depth0" data-block="true"><div class="public-DraftStyleDefault-block"><span style="font-weight: bold;"><span data-text="true">Punkt eins:</span></span><span><span data-text="true"> Erklärung</span></span></div></li>
+        <li class="longform-unordered-list-item public-DraftStyleDefault-depth1" data-block="true"><div class="public-DraftStyleDefault-block"><span><span data-text="true">Unterpunkt</span></span></div></li>
+      </ul>
+      <ol class="public-DraftStyleDefault-ol">
+        <li class="longform-ordered-list-item public-DraftStyleDefault-depth0" data-block="true"><div class="public-DraftStyleDefault-block"><span><span data-text="true">Schritt A</span></span></div></li>
+        <li class="longform-ordered-list-item public-DraftStyleDefault-depth0" data-block="true"><div class="public-DraftStyleDefault-block"><span><span data-text="true">Schritt B</span></span></div></li>
+      </ol>
+      <section data-block="true"><div role="separator"></div></section>
+      <section data-block="true"><div><a href="/testuser/article/123/media/3"><div data-testid="tweetPhoto"><img alt="Karte" src="/img/figure.png"></div></a>
+        <div class="public-DraftEditor-content" data-testid="longformRichTextComponent"><div class="longform-unstyled"><div class="public-DraftStyleDefault-block"><span><span data-text="true">Bildunterschrift: In der EU gilt die Registrierungspflicht.</span></span></div></div></div></div></section>
+      <blockquote class="longform-blockquote" data-block="true"><div class="public-DraftStyleDefault-block"><span><span data-text="true">Ein Zitat im Artikel.</span></span></div></blockquote>
+      <section data-block="true"><div><article data-testid="tweet"><div data-testid="tweetText">Eingebetteter Post mit Text</div><a href="/someone/status/999">Link</a></article></div></section>
+      <div class="longform-weird-unknown" data-block="true"><span>Unbekannter Blocktyp bleibt erhalten</span></div>
+      <section data-block="true"><div><div>Unbekannter Abschnitt mit Text</div></div></section>
+      <div class="longform-unstyled" data-block="true"><div class="public-DraftStyleDefault-block"><span><span data-text="true">Letzter Absatz ENDE-MARKER.</span></span></div></div>
+    </div></div>
+    </div></div></div></div>
+  </div>
+</article>
+</div></main>
+</body>
+</html>

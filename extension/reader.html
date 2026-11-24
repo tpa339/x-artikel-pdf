@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X-Artikel als PDF</title>
+  <link rel="stylesheet" href="reader.css">
+</head>
+<body>
+  <div id="bar" class="no-print">
+    <span id="status" role="status">Artikel wird vorbereitet …</span>
+    <span class="buttons">
+      <button id="btn-pdf" type="button" disabled>PDF speichern</button>
+      <button id="btn-print" type="button" disabled>Drucken …</button>
+      <button id="btn-show" type="button" hidden>Im Finder zeigen</button>
+    </span>
+  </div>
+  <main id="doc"></main>
+  <script src="reader.js"></script>
+</body>
+</html>
