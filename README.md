@@ -51,3 +51,7 @@ cd .. && node test/run.mjs
 Erwartetes Ergebnis: `31/31 Prüfungen bestanden`. Mit `XPDF_NET=1` prüft der Test zusätzlich ein echtes Bild von X: `33/33`. Der Test liest einen nachgebauten Artikel (`test/fixture-article.html`) und erzeugt `test/last-test-output.pdf`.
 
 Der Test ruft die Klick-Funktion direkt im Service Worker auf. Den echten Klick auf das Symbol und das Recht `activeTab` prüft er nicht. Playwright kann die Symbolleiste nicht bedienen. Prüfe den Klick von Hand auf x.com.
+
+## Lizenz
+
+MIT. Siehe `LICENSE`.
